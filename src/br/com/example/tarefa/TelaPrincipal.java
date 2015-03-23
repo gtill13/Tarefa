@@ -26,6 +26,24 @@ public class TelaPrincipal extends Activity {
 		
 	}
 	
+	public void TelaCheckBox( View v ) {
+		
+		Log.d("TiLL", "TelaPrincipal -> TelaCheckBox)");
+		
+		Intent i = new Intent(getApplicationContext(), TelaCheckBox.class);
+		startActivity(i);
+		
+	}
+	
+	public void TelaToggleButton( View v ) {
+		
+		Log.d("TiLL", "TelaPrincipal -> TelaToggleButton)");
+		
+		Intent i = new Intent(getApplicationContext(), TelaToggleButton.class);
+		startActivity(i);
+		
+	}
+	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

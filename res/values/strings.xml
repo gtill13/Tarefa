@@ -5,5 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_tela_spinner">TelaSpinner</string>
     <string name="title_activity_tela_radio">TelaRadio</string>
+    <string name="title_activity_toggle_button">ToggleButton</string>
+    <string name="title_activity_tela_check_box">TelaCheckBox</string>
 
 </resources>

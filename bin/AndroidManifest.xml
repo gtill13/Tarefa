@@ -30,6 +30,14 @@
             android:name=".TelaRadio"
             android:label="@string/title_activity_tela_radio" >
         </activity>
+        <activity
+            android:name=".TelaToggleButton"
+            android:label="@string/title_activity_toggle_button" >
+        </activity>
+        <activity
+            android:name=".TelaCheckBox"
+            android:label="@string/title_activity_tela_check_box" >
+        </activity>
     </application>
 
 </manifest>
